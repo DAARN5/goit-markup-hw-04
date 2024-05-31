@@ -133,6 +133,8 @@ a {
 
 .hiro {
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpeg); 
+    max-width: 1440px;
 }
 .container {
     width: 1158px;
@@ -170,6 +172,8 @@ a {
     display: block;
     min-width: 169px;
     height: 56px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .hiro-btn-main:hover {
     background-color: #404BBF;
