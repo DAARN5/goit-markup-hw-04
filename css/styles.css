@@ -441,6 +441,10 @@ padding: 100px 0
     display: flex;
     align-items: baseline;
 }
+.footer-div {
+    margin-right: 120px;
+    
+}
 .footer-logo {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
