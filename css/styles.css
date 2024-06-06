@@ -506,3 +506,6 @@ font-family: "Raleway", sans-serif;
 .team-icons {
     fill: #f4f4fd;
 }
+.container-footer {
+    display:flex;
+}
