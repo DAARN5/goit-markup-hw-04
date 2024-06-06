@@ -155,7 +155,6 @@ color:#404BBF;
 .hiro {
     padding: 188px 0;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Darkbg.jpg);
 }
 .container {
     width: 1158px;
@@ -203,7 +202,7 @@ color:#404BBF;
 }
 .hiro {
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -393,6 +392,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-item:hover .portfolio-paragraf-div {
+    transform: translateY(0%);
 }
 .image-div {
     position: relative;
